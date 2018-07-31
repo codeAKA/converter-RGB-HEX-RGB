@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div class="cont rgb">
+      <input type="text" name="colr" class="color rgb r" placeholder="R:">
+      <input type="text" name="colg" class="color rgb g" placeholder="G:">
+      <input type="text" name="colb" class="color rgb b" placeholder="B:">
+    </div>
+    <button class="btn change">CONVERT</button>
+    <div class="cont hex">
+      <input type="text" name="colh" class="color hex" placeholder="HEX:">
+    </div>
+    <div class="response"></div>
+  </div>
+  <div class="cont-foot">
+    <span class="picked txt">COLOR:</span>
+    <span class="picked col"></span>
+    <button class="btn ref">REFRESH</button>
+    <button class="btn invert">CHANGE</button>
+  </div>
+  <script src="myscript.js"></script>
+</body>
+</html>
